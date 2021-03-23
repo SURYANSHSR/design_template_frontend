@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  background-color: aqua;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.row {
+  background-color: lightblue;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.level {
+  font-size: 25px;
+  font-weight: bold;
+}
+.input {
+  width: 45vw;
+  background-color: greenyellow;
+  font-size: 25px;
+}
+
+.button__box {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  margin: 10px;
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+.table {
+  background-color: aqua;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.table__value {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#table-wrapper {
+  position: relative;
+}
+#table-scroll {
+  overflow: auto;
+  margin-top: 20px;
+  height: 80vw;
+}
+#table-wrapper table {
+  width: 100%;
+}
+#table-wrapper table * {
+  background: lightblue;
+  color: black;
+  margin-top: 20px;
+}
+#table-wrapper table thead th tr .text {
+  position: absolute;
+  top: -20px;
+  z-index: 2;
+  height: 20px;
+  width: 35%;
+  border: 1px solid red;
+}
+
+.DMF {
+  border: 2px solid;
+  margin: 5px;
+  text-align: center;
+}
+.ASKUS {
+  border: 2px solid black;
+  margin: 5px;
+  text-align: center;
+}
+.Header {
+  border: 2px solid;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.button_header {
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  justify-content: justify;
+}
+.button_box {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+}

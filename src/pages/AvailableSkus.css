@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#table-wrapper {
+  position: relative;
+}
+#table-scroll {
+  overflow: auto;
+  margin-top: 20px;
+  height: 80vw;
+}
+#table-wrapper table {
+  width: 100%;
+}
+
+#table-wrapper table thead th tr .text {
+  position: absolute;
+  top: -20px;
+  z-index: 2;
+  height: 20px;
+  width: 35%;
+  border: 1px solid red;
+}

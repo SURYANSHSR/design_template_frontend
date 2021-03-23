@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.button__box {
+  display: flex;
+  justify-content: center;
+}
+.Header {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid;
+  margin: 5px;
+  align-items: center;
+}
+.button_header {
+  margin: 5px;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  justify-content: justify;
+}
+.button_box {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+}
+.header__image {
+  width: 250px;
+}
